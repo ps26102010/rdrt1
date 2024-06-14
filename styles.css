@@ -4,11 +4,10 @@ body {
     margin: 110;
     padding: 2px;
 	background-image: url("1.jfif");
-	color: white;
 }
 
 h1 {
-    color: #333;
+    color: white;
 }
 
 .puzzle {
@@ -26,8 +25,6 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: orange;
-    color: black;
     border: black;
     border-radius: 5px;
 	text-align: center;
