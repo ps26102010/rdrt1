@@ -1,9 +1,9 @@
 body {
     font-family: arial, sans-serif;
     text-align: center;
-    margin: 110px;
+    margin: 110px; /* Added px for unit */
     padding: 2px;
-	background-image: url("1.jfif");
+    background-image: url("1.jfif");
 }
 
 h1 {
