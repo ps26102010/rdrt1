@@ -1,7 +1,7 @@
 body {
     font-family: arial, sans-serif;
     text-align: center;
-    margin: 110;
+    margin: 110px;
     padding: 2px;
 	background-image: url("1.jfif");
 }
@@ -25,12 +25,14 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border: black;
+    border: 1px solid black; /* Specify border style, width, and color */
     border-radius: 5px;
-	text-align: center;
-
+    text-align: center;
+    background-color: white; /* Set background color */
+    color: black; /* Set text color */
 }
 
 button:hover {
     background-color: red;
+    color: white; /* Change text color on hover for contrast */
 }
